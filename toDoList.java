@@ -52,3 +52,18 @@ public class toDoList {
         tracker.displayTasks();
     }
 }
+
+---OUTPUT---
+Add Task - Time: Buy groceries 2800 ns, Complexity: O(1)
+Add Task - Time: Read a book 1100 ns, Complexity: O(1)
+
+Mark Task Completed - Time: 995000 ns, Complexity: O(n)
+    
+Buy groceries (Done)
+Read a book   
+Display Tasks - Time: 51200 ns, Complexity: O(n)
+    
+Remove Task - Time: 3500 ns, Complexity: O(n)
+    
+Buy groceries (Done)
+Display Tasks - Time: 44400 ns, Complexity: O(n)
